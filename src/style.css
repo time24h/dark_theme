@@ -101,3 +101,18 @@ nav h3 {
   place-items: center;
   color: #ddd;
 }
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.footer_ {
+  text-transform: capitalize;
+}

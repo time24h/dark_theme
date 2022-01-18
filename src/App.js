@@ -44,6 +44,12 @@ function App() {
             return <Article {...item} key={item.id} />;
           })}
         </div>
+        <footer>
+          <p>
+            - &copy; berita terkini 2022{' '}
+            <span className='footer_'>all right reserverd</span>. -
+          </p>
+        </footer>
       </section>
     </main>
   );
