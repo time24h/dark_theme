@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark-theme {
+  background: #222;
+  color: #fff;
+}
+.light-theme {
+  background: #ffff;
+  color: #222;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 700px) {
+  img {
+    width: 300px;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  max-width: 700px;
+  margin: 3rem auto;
+}
+
+nav h3 {
+  text-transform: uppercase;
+}
+.news {
+  width: 90vw;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.list_news {
+  padding: 3rem 0;
+}
+.news-card {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.news-info {
+  text-transform: capitalize;
+}
+
+.news_time,
+.news_date,
+.news_category {
+  margin-bottom: 0.5rem;
+}
+
+.news_time span {
+  background: red;
+  color: #fff;
+  padding: 0.1rem;
+  border-radius: 0.1rem;
+  text-transform: uppercase;
+}
+.news_title {
+  margin: 1rem 0;
+}
+
+.changeBtn {
+  font-size: 1rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #ddd;
+  display: grid;
+  place-items: center;
+  color: #ddd;
+}
